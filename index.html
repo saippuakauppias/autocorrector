@@ -14,14 +14,15 @@
 
     <link href="static/tilda-grid-2.0.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="static/tilda-blocks-2.0.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="static/style.css" type="text/css" media="screen">
 </head>
 <body style="margin: 0px;">
 
 
-<div id="allrecords" data-hook="blocks-collection-content-node" data-tilda-page="26174">
+<div data-hook="blocks-collection-content-node">
 
 
-<div id="rec2254699" class="r" style="padding-top: 60px; padding-bottom: 15px; opacity: 1;" data-record-type="33">
+<div class="r" style="padding-top: 60px; padding-bottom: 15px;">
     <!-- T017 -->
     <div class="t017">
         <div class="container centeredSection">
@@ -29,13 +30,17 @@
                 <h3 class="uptitle" field="subtitle">Нужно автоматически исправить ошибки в объемном тексте?</h3>
                 <h1 class="title-xs" field="title">Онлайн автокорректор текста</h1>
                 <div class="descr-xs" field="descr">Проверка орфографии онлайн, исправление ошибок в тексте.<br>Используется сервис проверки правописания <em>Яндекс.Спеллер</em>.</div>
+                <div class="descr-xs" field="descr">
+                    <iframe src="https://ghbtns.com/github-btn.html?user=saippuakauppias&repo=autocorrector&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                    <iframe src="https://ghbtns.com/github-btn.html?user=saippuakauppias&repo=autocorrector&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<div id="rec2255076" class="r" style="padding-top: 15px; padding-bottom: 15px; opacity: 1;" data-record-type="23">
+<div class="r" style="padding-top: 15px; padding-bottom: 15px;">
     <!-- T006 -->
     <div class="t006">
         <div class="container">
@@ -55,17 +60,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="lr_col_12">
-                    <div class="lineContainerbottom"></div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
 
 
-<div id="rec2255090" class="r" style="padding-top: 15px; padding-bottom: 15px; opacity: 1;" data-record-type="23">
+<div class="r" style="padding-top: 15px; padding-bottom: 15px;">
     <!-- T006 -->
     <div class="t006">
         <div class="container">
@@ -85,17 +85,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="lr_col_12">
-                    <div class="lineContainerbottom"></div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
 
 
-<div id="rec2255126" class="r" style="padding-top:15px;padding-bottom:15px; " data-record-type="23">
+<div class="r" style="padding-top:15px;padding-bottom:15px;">
     <!-- T006 -->
     <div class="t006">
         <div class="container">
@@ -125,7 +120,7 @@
 </div>
 
 
-<div id="rec2255122" class="r" style="padding-top: 15px; padding-bottom: 15px; opacity: 0;" data-record-type="65">
+<div class="r" style="padding-top: 15px; padding-bottom: 15px;">
     <!-- T056 -->
     <div class="t056">
         <div class="container centeredSection">
@@ -137,11 +132,14 @@
 </div>
 
 
-
-
-<div id="rec2255116" class="r" style="opacity: 0;" data-record-type="131">
+<div class="r last-layer">
     <!-- T123 -->
-    <!-- <textarea></textarea> -->
+    <div class="text-field">
+        <textarea id="text_field" class="text"></textarea>
+    </div>
+    <div class="button-field">
+        <input id="correction" type="button" value="Исправить" class="button">
+    </div>
 </div>
 
 
@@ -153,6 +151,8 @@
 
 <!-- Tilda copyright. Don't remove this line --><div class="tildacopy" id="tildacopy" data-tilda-sign="6050#26174"><a href="http://tilda.cc/?upm=6050"><div class="tcont"><div class="powered">Made on </div><div class="timg"><img src="static/tildacopy.png"></div><div class="tp">Tilda</div></div></a></div>
 
+    <script type="text/javascript" src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="static/script.js"></script>
 
 </body>
 </html>
